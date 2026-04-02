@@ -246,10 +246,9 @@ dialog.xfsm-logout-dialog {
 
 	.sidebar.shortcuts-pane treeview.view {
 		background-color: $fill;
-		
-		&:drop(active),
+
 		&:selected {
-			@extend %selected_items;
+			@extend %selected_items_primary;
 		}
 	}
 
